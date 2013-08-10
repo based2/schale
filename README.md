@@ -87,7 +87,7 @@ Start from a `new Env()` object, use `cd()` to change directory and `env()` to a
 
 __Is `Shell()` cross platform?__
 
-`Comamnd()` is cross platform, however `Shell("script")` assumes \*nix OS platform and the availability of `/bin/sh`. Alternative call `Shell("script", "interpreter path")` uses the specified interpreter, but still cannot be guaranteed to run cross-platform.
+`Command()` is cross platform, however `Shell("script")` assumes \*nix OS platform and the availability of `/bin/sh`. Alternative call `Shell("script", "interpreter path")` uses the specified interpreter, but still cannot be guaranteed to run cross-platform.
 
 __Can I `cd()` to relative paths?__
 
